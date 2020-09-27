@@ -1,0 +1,30 @@
+<html>
+
+<head>
+	<title>Part Inventory</title>
+</head>
+
+<body>
+	<h2>Add New Part To Inventory</h2>
+    
+    <form id="myform" action="AddInventory" method="POST">
+        Name of Part:
+        <input type="text" name="partName" />
+		<br/>
+		Part Description:
+        <input type="text" name="partDesc" />
+		<br/>
+		Part Category ID:
+        <input type="text" name="partCategoryID" />
+        <br/><br/>
+        Bin Quantity:
+        <input type="number" name="binQuantity" />
+		<br/><br/>
+		
+        <input type="submit" value="Submit Entry" />
+    </form>
+
+    <div id="form_output"></div>
+</body>
+
+</html>
